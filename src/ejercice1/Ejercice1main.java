@@ -1,9 +1,16 @@
 package ejercice1;
 
+import java.util.Scanner;
+
 public class Ejercice1main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int num;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("introduce un numero: " );
+		num=sc.nextInt();
+		
+		
 
 	}
 
