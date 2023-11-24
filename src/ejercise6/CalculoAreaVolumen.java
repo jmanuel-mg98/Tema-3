@@ -9,7 +9,7 @@ public class CalculoAreaVolumen {
 			System.out.println("el area del cilindro es"+resultadoArea+" cm");
 		}else if (opcion==2) {
 			double resultadoVolumen=PI*Math.pow(radio, 2)*altura;
-			System.out.println("el area del cilindro es"+resultadoVolumen+" cm");
+			System.out.println("el area del cilindro es "+resultadoVolumen+" cm");
 		}else {
 			System.out.println("opcion no corerecta");
 			

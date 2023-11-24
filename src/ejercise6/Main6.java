@@ -11,7 +11,7 @@ public class Main6 {
 		radio= sc.nextInt();
 		System.out.print("introduce la altura del cilindro: ");
 		altura= sc.nextInt();
-		System.out.print("si quieres calcular el area pulsa 1 y si quieres calcular el volumen pulsa 2");
+		System.out.print("si quieres calcular el area pulsa 1 y si quieres calcular el volumen pulsa 2: ");
 		opcion =sc.nextInt();
 		CalculoAreaVolumen.calculoAreaVolumen(radio, altura, opcion);
 				
