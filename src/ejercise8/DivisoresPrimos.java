@@ -7,14 +7,11 @@ public class DivisoresPrimos {
 
 	public static int divisoresPrimos(int num) {
 		int res=0;
-		
-		for(int j=2;j<=num;j++) {
-		
-		if(EsPrimo.esPrimo(j)==true&&num/j) {
+		for(int j=2;j<=Math.sqrt(num);j++) {
+			if(EsPrimo.esPrimo(j)==true) {
 			res++;
-		}
+			}
 		}
 		return (res);
-	
 	}
 }
